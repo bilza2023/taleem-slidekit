@@ -1,7 +1,8 @@
-import { defineConfig } from 'vitest/config';
 
-export default defineConfig({
-  test: {
-    environment: 'jsdom'
+// vite.config.js
+export default {
+  root: ".",
+  server: {
+    port: 3000
   }
-});
+};
