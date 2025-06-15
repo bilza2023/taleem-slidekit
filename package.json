@@ -1,6 +1,6 @@
 {
   "name": "taleem-slidekit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Composable, themeable slide builder for Taleem.Help presentations",
   "type": "module",
   "exports": {
@@ -11,7 +11,11 @@
   },
   "files": [
     "index.js",
-    "src/"
+    "slideKit/",
+    "core/",
+    "slidePresets/",
+    "pos/",
+    "presets/"
   ],
   "scripts": {
     "test": "vitest",
